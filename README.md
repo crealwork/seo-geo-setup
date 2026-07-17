@@ -62,10 +62,7 @@ seo-geo-setup/
 
 ## 감사
 
-**AIMS**의 무료 가이드 "AI 시대, 혼자서도 끝내는 마케팅 실전 세팅"
-(Growth Playbook 2026, [aim-squad.com](https://aim-squad.com))에서 많이 배웠습니다 — 고맙습니다.
-일부 팁의 원 출처: threads [@avcd.eee](https://www.threads.net/@avcd.eee) (GSC 등록 방식,
-GBP 리뷰), [@place_joe](https://www.threads.net/@place_joe) (네이버 플레이스 키워드).
+**AIMS** ([aim-squad.com](https://aim-squad.com)) — 옆에서 많이 배우고 있습니다. 고맙습니다.
 
 ## License
 
