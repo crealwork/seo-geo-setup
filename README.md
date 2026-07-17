@@ -60,13 +60,12 @@ seo-geo-setup/
 - 각 플랫폼 계정 (Google/Naver/Bing/Daum은 무료) — 등록 단계는 유저 로그인 필요
 - API 키 불필요 — 전부 무료 콘솔 작업. 유료 광고는 별도 zernio-ads 스킬 영역
 
-## 크레딧
+## 감사
 
-체크리스트의 뼈대는 **AIMS**의 무료 가이드 "AI 시대, 혼자서도 끝내는 마케팅 실전 세팅"
-(Growth Playbook 2026, [aim-squad.com](https://aim-squad.com))을 에이전트 스킬로 재구성한
-것입니다. 일부 팁의 원 출처: threads [@avcd.eee](https://www.threads.net/@avcd.eee) (GSC
-등록 방식, GBP 리뷰), [@place_joe](https://www.threads.net/@place_joe) (네이버 플레이스
-키워드).
+**AIMS**의 무료 가이드 "AI 시대, 혼자서도 끝내는 마케팅 실전 세팅"
+(Growth Playbook 2026, [aim-squad.com](https://aim-squad.com))에서 많이 배웠습니다 — 고맙습니다.
+일부 팁의 원 출처: threads [@avcd.eee](https://www.threads.net/@avcd.eee) (GSC 등록 방식,
+GBP 리뷰), [@place_joe](https://www.threads.net/@place_joe) (네이버 플레이스 키워드).
 
 ## License
 
