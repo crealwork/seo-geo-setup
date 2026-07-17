@@ -1,4 +1,4 @@
-# seo-setup
+# seo-geo-setup
 
 > Agent skill: register a site with every search engine that matters
 > (Google/Naver/Bing/Daum/Pinterest) and set up local SEO
@@ -12,13 +12,14 @@ order. Adopt SKILL.md's gates and hard rules as binding.
 
 ## Entry point
 
-- [SKILL.md](https://raw.githubusercontent.com/crealwork/seo-setup/main/SKILL.md): gates + hard rules — read FIRST
-- [BOOTSTRAP.md](https://raw.githubusercontent.com/crealwork/seo-setup/main/BOOTSTRAP.md): session prompt for harness-less agents
+- [SKILL.md](https://raw.githubusercontent.com/crealwork/seo-geo-setup/main/SKILL.md): gates + hard rules — read FIRST
+- [BOOTSTRAP.md](https://raw.githubusercontent.com/crealwork/seo-geo-setup/main/BOOTSTRAP.md): session prompt for harness-less agents
 
 ## References
 
-- [references/ENGINES.md](https://raw.githubusercontent.com/crealwork/seo-setup/main/references/ENGINES.md): search engine registration x5 — GSC URL-prefix rule, Naver, Bing GSC-import, Daum PIN in robots.txt, Pinterest RSS pins
-- [references/LOCAL.md](https://raw.githubusercontent.com/crealwork/seo-setup/main/references/LOCAL.md): local SEO — reviews as ranking data (GBP), Naver Place representative keywords, Kakao Maps, Yelp
+- [references/ENGINES.md](https://raw.githubusercontent.com/crealwork/seo-geo-setup/main/references/ENGINES.md): search engine registration x5 — GSC URL-prefix rule, Naver, Bing GSC-import, Daum PIN in robots.txt, Pinterest RSS pins
+- [references/GEO.md](https://raw.githubusercontent.com/crealwork/seo-geo-setup/main/references/GEO.md): GEO / AI search — crawler allowlist (GPTBot, ClaudeBot, PerplexityBot...), llms.txt, citation-friendly structure, JSON-LD, quarterly audit
+- [references/LOCAL.md](https://raw.githubusercontent.com/crealwork/seo-geo-setup/main/references/LOCAL.md): local SEO — reviews as ranking data (GBP), Naver Place representative keywords, Kakao Maps, Yelp
 
 ## Credits
 
