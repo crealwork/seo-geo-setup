@@ -19,9 +19,11 @@ order. Adopt SKILL.md's gates and hard rules as binding.
 - [references/MEASUREMENT.md](https://raw.githubusercontent.com/crealwork/seo-setup/main/references/MEASUREMENT.md): GA4 + GTM + Clarity — retention 14mo, internal-traffic filter activation, generate_lead conversions, UTM rules, Ads/GSC links, audiences, AI Search channel regex, copy-paste AI delegation prompts
 - [references/LOCAL.md](https://raw.githubusercontent.com/crealwork/seo-setup/main/references/LOCAL.md): local SEO — reviews as ranking data (GBP), Naver Place representative keywords, Kakao Maps, Yelp
 - [references/PAID-ADS.md](https://raw.githubusercontent.com/crealwork/seo-setup/main/references/PAID-ADS.md): Zernio Ads API — boost post, standalone campaigns, audiences, analytics, spend safety rules (user-gated budgets)
+- [references/PUBLISH.md](https://raw.githubusercontent.com/crealwork/seo-setup/main/references/PUBLISH.md): publish head checklist — copy-paste head template, favicon set, per-page titles, OG 1200x630 absolute URLs, post-deploy verification
 
 ## Credits
 
 Distilled from the free AIMS Growth Playbook 2026 (aim-squad.com); some tips
 originally from threads @avcd.eee and @place_joe. Zernio Ads API verified
 against zernio.com public docs on 2026-07-16.
+

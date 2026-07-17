@@ -13,7 +13,7 @@ description: Use when setting up SEO or measurement for a site — search engine
 
 ## Gates (해당하는 것만, 순서대로)
 
-**G0 — 준비물 확인.** 사이트에 `sitemap.xml` + `robots.txt` + 페이지별 title/description/OG 태그(1200×630 권장)가 있는지 확인. 없으면 먼저 만든다. Daum 인증이 robots.txt를 수정하므로 robots.txt 접근 권한을 먼저 확인.
+**G0 — 준비물 확인.** references/PUBLISH.md의 head 체크리스트(favicon 세트, 페이지별 title/description, OG 1200×630, canonical)를 통과시키고 `sitemap.xml` + `robots.txt` 확인. 없으면 먼저 만든다 — 복붙용 `<head>` 템플릿이 PUBLISH.md에 있다. **새 사이트를 만들 때도 이 체크리스트를 배포 전에 자동 적용한다.** Daum 인증이 robots.txt를 수정하므로 robots.txt 접근 권한을 먼저 확인.
 
 **G1 — 검색엔진 등록.** references/ENGINES.md. Google(URL 접두어!), Naver, Bing(GSC 임포트), Daum(PIN→robots.txt), Pinterest(RSS 자동 핀). 등록 자체는 브라우저 작업 — 유저 계정 로그인이 필요하니 각 단계에서 유저에게 안내하거나 브라우저 도구로 진행.
 
@@ -39,6 +39,7 @@ description: Use when setting up SEO or measurement for a site — search engine
 
 | 작업 | 위치 |
 |---|---|
+| 퍼블리시 head 체크리스트 (favicon·title·OG 템플릿) | references/PUBLISH.md |
 | 검색엔진 5종 등록 (GSC·Naver·Bing·Daum·Pinterest) | references/ENGINES.md |
 | GA4·GTM·Clarity + 전환·UTM·잠재고객·AI Search 채널 | references/MEASUREMENT.md |
 | 로컬 SEO (GBP·Naver Place·Kakao·Yelp) | references/LOCAL.md |
