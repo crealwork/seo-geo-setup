@@ -2,8 +2,9 @@
 
 > Agent skill: give it a site URL and it completes the SEO groundwork —
 > search engine registration (Google/Naver/Bing/Daum/Pinterest), GA4/GTM/
-> Clarity measurement, local SEO (GBP/Naver Place/Kakao/Yelp), and paid ads
-> via the Zernio Ads API. Checklist gates with real UI paths and pitfalls.
+> Clarity measurement, and local SEO (GBP/Naver Place/Kakao/Yelp).
+> Checklist gates with real UI paths and pitfalls. Paid ads live in the
+> separate zernio-ads skill (github.com/crealwork/marketing-kit).
 
 For agents that cannot `git clone`: read the files below via raw URLs, in this
 order. Adopt SKILL.md's gates and hard rules as binding.
@@ -18,12 +19,10 @@ order. Adopt SKILL.md's gates and hard rules as binding.
 - [references/ENGINES.md](https://raw.githubusercontent.com/crealwork/seo-setup/main/references/ENGINES.md): search engine registration x5 — GSC URL-prefix rule, Naver, Bing GSC-import, Daum PIN in robots.txt, Pinterest RSS pins
 - [references/MEASUREMENT.md](https://raw.githubusercontent.com/crealwork/seo-setup/main/references/MEASUREMENT.md): GA4 + GTM + Clarity — retention 14mo, internal-traffic filter activation, generate_lead conversions, UTM rules, Ads/GSC links, audiences, AI Search channel regex, copy-paste AI delegation prompts
 - [references/LOCAL.md](https://raw.githubusercontent.com/crealwork/seo-setup/main/references/LOCAL.md): local SEO — reviews as ranking data (GBP), Naver Place representative keywords, Kakao Maps, Yelp
-- [references/PAID-ADS.md](https://raw.githubusercontent.com/crealwork/seo-setup/main/references/PAID-ADS.md): Zernio Ads API — boost post, standalone campaigns, audiences, analytics, spend safety rules (user-gated budgets)
 - [references/PUBLISH.md](https://raw.githubusercontent.com/crealwork/seo-setup/main/references/PUBLISH.md): publish head checklist — copy-paste head template, favicon set, per-page titles, OG 1200x630 absolute URLs, post-deploy verification
 
 ## Credits
 
 Distilled from the free AIMS Growth Playbook 2026 (aim-squad.com); some tips
-originally from threads @avcd.eee and @place_joe. Zernio Ads API verified
-against zernio.com public docs on 2026-07-16.
+originally from threads @avcd.eee and @place_joe.
 

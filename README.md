@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>사이트 URL 하나 주면 AI 에이전트가 SEO 기반 공사를 끝내는 스킬.</b><br>
-  검색엔진 5종 등록 → GA4/GTM/Clarity 측정 세팅 → 로컬 SEO → 유료 광고(Zernio)까지, 체크리스트 게이트로.
+  퍼블리시 최적화(favicon·OG·title) → 검색엔진 5종 등록 → GA4/GTM/Clarity 측정 세팅 → 로컬 SEO까지, 체크리스트 게이트로.
 </p>
 
 ---
@@ -23,7 +23,7 @@
 | G1 엔진 등록 | Google(URL 접두어 룰) · Naver · Bing(GSC 임포트) · Daum(PIN→robots.txt) · Pinterest(RSS 자동 핀) |
 | G2 측정 | GA4+GTM+Clarity — 필수 3설정, generate_lead 전환, UTM 규칙, Ads/GSC 연결, 잠재고객, **AI Search 채널**(ChatGPT·Gemini·Claude·Perplexity 유입 분리) |
 | G3 로컬 SEO | Google Business Profile 리뷰 전략 · Naver Place 대표 키워드 조합 · Kakao · Yelp |
-| G4 유료 광고 | Zernio Ads API — 포스트 부스트/독립 캠페인/오디언스/analytics, 지출 안전 룰 |
+| G4 유료 광고 | 측정 완성 후 별도 [zernio-ads 스킬](https://github.com/crealwork/marketing-kit)로 핸드오프 |
 
 전부 실제 UI 경로와 함정("내부 트래픽 필터는 '활성'까지 켜야 적용", "Ads 연결은 소급 불가")이
 박힌 실전 체크리스트입니다. 바이브코딩 사이트라면 GTM/GA4 세팅을 AI에게 통째로 맡기는
@@ -53,13 +53,13 @@ seo-setup/
     ├── ENGINES.md            ← 검색엔진 5종 등록 + 완료 체크
     ├── MEASUREMENT.md        ← GA4·GTM·Clarity 풀 세팅 + AI 위임 프롬프트
     ├── LOCAL.md              ← 로컬 SEO (GBP·네이버 플레이스·카카오·Yelp)
-    └── PAID-ADS.md           ← Zernio 광고 API + 지출 안전 룰
+    └── PUBLISH.md            ← 퍼블리시 head 체크리스트 (favicon·OG·title 템플릿)
 ```
 
 ## 필요한 것
 
 - 각 플랫폼 계정 (Google/Naver/Bing/Daum은 무료) — 등록 단계는 유저 로그인 필요
-- 유료 광고(G4)만 [Zernio](https://zernio.com) 계정 + API 키 (G0–G3는 불필요)
+- API 키 불필요 — 전부 무료 콘솔 작업. 유료 광고는 별도 zernio-ads 스킬 영역
 
 ## 크레딧
 
@@ -67,7 +67,7 @@ seo-setup/
 (Growth Playbook 2026, [aim-squad.com](https://aim-squad.com))을 에이전트 스킬로 재구성한
 것입니다. 일부 팁의 원 출처: threads [@avcd.eee](https://www.threads.net/@avcd.eee) (GSC
 등록 방식, GBP 리뷰), [@place_joe](https://www.threads.net/@place_joe) (네이버 플레이스
-키워드). Zernio Ads API 섹션은 zernio.com 공개 문서 기준 (2026-07-16 검증).
+키워드).
 
 ## License
 

@@ -18,9 +18,9 @@ this session:
 4. Registration steps (G1) and console settings (G2) need the user's logged-in
    accounts — guide the user click-by-click with the exact UI paths in the
    references, or drive a browser tool if available.
-5. NEVER call any ads endpoint (G4) without the user's explicit approval of
-   platform + budget + duration. On any timeout, LIST campaigns before
-   retrying — a blind retry can double-charge.
+5. Paid ads are OUT OF SCOPE for this skill — G4 only verifies measurement
+   readiness, then hands off to the separate zernio-ads skill
+   (github.com/crealwork/marketing-kit), which carries its own spend gates.
 6. Verify by looking: GA4 Realtime for events/UTM, GTM preview before publish.
 
 Confirm you have read SKILL.md, then ask for the site URL.
